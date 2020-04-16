@@ -4,15 +4,11 @@
     "default": {
       "connector": "mongoose",
       "settings": {
-        "database": "api-hero",
-        "host": "127.0.0.1",
-        "srv": false,
-        "port": 27017,
-        "username": "",
-        "password": ""
+        "database": "todos-heros",
+        "uri": "mongodb://brice-mangeat:AQOTYIG43azcWtZw@hero-api-shard-00-00-hhiru.mongodb.net:27017,hero-api-shard-00-01-hhiru.mongodb.net:27017,hero-api-shard-00-02-hhiru.mongodb.net:27017/test?ssl=true&replicaSet=hero-api-shard-0&authSource=admin&retryWrites=true&w=majority"
       },
       "options": {
-        "authenticationDatabase": ""
+        "ssl": true
       }
     }
   }
